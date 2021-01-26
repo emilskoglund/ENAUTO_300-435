@@ -56,7 +56,7 @@ vlan_conf = get_config_data(
     username=device["username"],
     password=device["password"],
     filter=sub_filter_conf_username,
-    filter_method='subtree'
+    filter_method="subtree",
 )
 
 print()
