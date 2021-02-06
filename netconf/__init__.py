@@ -1,2 +1,4 @@
 from netconf.netconf_oper import get_oper_data
 from netconf.netconf_oper import get_config_data
+from netconf.netconf_oper import get_capabilities
+from netconf.netconf_oper import edit_config
